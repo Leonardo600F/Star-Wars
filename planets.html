@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Planets</title>
+    <link rel="stylesheet" href="planets.css">
+    <link rel="shortcut icon" href="./assets/Millennium Falcon.png" type="image/x-icon">
+</head>
+<body>
+    <script src="./planets.js"></script>
+    <script src="https://kit.fontawesome.com/a747b09475.js" crossorigin="anonymous"></script>
+
+    <header>
+        <a href="./characters.html">
+            <div class="logo">
+                <img src="./assets/Star Wars Logo.png" alt="logo" class="logo-img" />
+                <span class="logo-text">Characters</span>
+            </div>
+        </a>
+
+        <a href="./starships.html">
+            <span class="logo-text-starships">Starships</span>
+        </a>
+
+        <a href="./planets.html">
+            <span class="logo-text-planets">Planets</span>
+        </a>
+
+        <div class="social-media">
+            
+            <a href="https://www.instagram.com/leo_mz.2002/" target="_blank">
+                <i class="fa-brands fa-instagram"></i></a>
+
+                <a href="https://www.facebook.com/leonardo.marinzem/?locale=pt_BR" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i></a>
+
+                    <a href="https://github.com" target="_blank">
+                        <i class="fa-brands fa-github"></i></a>
+            
+                        <a href="https://br.linkedin.com" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <h2>Conheca todos os planetas de Star Wars em um so lugar</h2>
+
+        <div class="main-content" id="main-content"></div>
+        <div class="modal" id="modal" onclick="hideModal()">
+            <div class="modal-content" id="modal-content"></div>
+    </div>
+
+    <div class="buttons">
+        <button id="back-button" disabled>Anterior</button>
+        <button id="next-button" disabled>Próxima</button>
+    </div>
+</div>
+
+<footer>
+    <p class="footer-logo">Star Wars Planets</p>
+    <p class="copyright">Desenvolvido por &copy; Leonardo Marin Zem</p>
+</footer>
+</body>
+</html>
